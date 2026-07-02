@@ -1,188 +1,114 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Solid State by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Суперпредложение</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Montserrat,Arial,sans-serif;background:#f3f3f4;color:#020431;line-height:1.55}a{text-decoration:none;color:inherit}
+section{padding:75px 7vw;overflow:hidden}.wrap{max-width:1120px;margin:auto}.grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+h1,h2{margin:0;font-weight:900;line-height:1.12}h1{font-size:clamp(42px,6vw,70px);text-transform:uppercase;color:#2d287f}h2{font-size:clamp(32px,4vw,46px);text-align:center}.yellow{color:#f0d233}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:0 28px;border-radius:6px;background:#2d287f;color:white;font-weight:900;text-transform:uppercase;box-shadow:0 24px 34px rgba(55,238,199,.25)}
+.btn.outline{background:transparent;color:#173dff;border:2px solid #173dff;box-shadow:none}.hero{background:radial-gradient(circle at 75% 25%,#dce0ff,transparent 30%),#f7f7f8;padding-bottom:0}
+.eyebrow{font-size:28px;margin:0 0 30px}.eyebrow b{display:block;color:#2d287f;font-size:46px}.actions{display:flex;gap:25px;align-items:center;flex-wrap:wrap;margin-top:45px}
+.discount{width:160px;aspect-ratio:1;border-radius:50%;background:white;display:grid;place-items:center;text-align:center;font-weight:800;color:#06466f;box-shadow:0 0 0 22px #e9ecff,0 25px 60px #cfd2e5}.discount b{font-size:48px;display:block}
+.person{height:560px;max-width:430px;margin:auto;position:relative;background:linear-gradient(150deg,#243d65,#4d78a3,#172640);clip-path:polygon(22% 4%,78% 0,98% 36%,86% 100%,8% 100%,0 38%);box-shadow:0 30px 70px #c8c8d5}
+.person:before{content:"";position:absolute;top:35px;left:50%;transform:translateX(-50%);width:175px;height:215px;border-radius:48%;background:linear-gradient(#f2c7a5,#d99471);box-shadow:inset 0 18px 0 rgba(50,35,28,.45)}
+.video-band{background:#2d287f;color:white;padding-bottom:0}.video-band h2{text-align:left}.video{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#111,#25243c,#070707);box-shadow:0 25px 60px #0006}
+.play{position:absolute;inset:0;margin:auto;width:70px;height:50px;background:red;border-radius:12px}.play:after{content:"";position:absolute;top:50%;left:54%;transform:translate(-50%,-50%);border-left:18px solid white;border-top:12px solid transparent;border-bottom:12px solid transparent}
+.problem{text-align:center}.scene{position:relative;min-height:390px;border-bottom:1px solid #bbb}.person-shape{position:absolute;bottom:0;width:260px;height:350px;background:linear-gradient(#fff,#cfd7e8);border-radius:45% 45% 0 0}.left{left:12%}.right{right:12%;background:linear-gradient(#ddd,#8f919a)}
+.msg{position:absolute;left:50%;background:#ffca08;padding:8px 20px;border-radius:8px;font-size:24px}.m1{top:30%;margin-left:90px}.m2{top:52%;margin-left:-120px}.m3{top:73%;margin-left:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:38px;margin-top:55px}.card{background:white;border-radius:8px;padding:30px 45px;box-shadow:0 25px 60px #d0d0d8;border-left:4px solid #5c72ff}.card h3{color:#173dff;margin:0 0 15px;font-size:19px}.card p{margin:0;font-size:14px}
+.center{text-align:center;margin-top:55px}.box{height:520px;max-width:410px;margin:auto;background:linear-gradient(180deg,#eef1ff 0 64%,#172235 64%);box-shadow:0 35px 60px #0003;transform:perspective(900px) rotateY(-10deg);position:relative}.box:before{content:"ФИТНЕС__codex_directive_quoted_backslash__A ДЛЯ__codex_directive_quoted_backslash__A МОЗГА";white-space:pre;position:absolute;top:55px;right:30px;font-size:42px;font-weight:900}.box:after{content:"АЛЕКСЕЙ БЕССОНОВ";position:absolute;bottom:30px;left:30px;right:30px;color:white;font-weight:900;text-align:center}
+.check{display:grid;grid-template-columns:40px 1fr;gap:15px;margin:22px 0}.check:before{content:"✓";background:#ffd958;border-radius:50%;width:32px;height:32px;display:grid;place-items:center;font-weight:900}
+.quote{background:#2d287f;color:white;padding:55px 35px;font-size:30px}.quote span{display:block;color:#ffca08}.recommend-grid{display:grid;grid-template-columns:.55fr 1fr;margin-top:45px;background:white}
+.phones{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;margin-top:55px}.phone{width:205px;aspect-ratio:9/16;border:8px solid #050505;border-radius:16px;background:linear-gradient(160deg,#ddd,#7c8f98,#282d35);position:relative}
+footer{padding:35px;text-align:center;background:#020431;color:white}
+@media(max-width:900px){.grid,.recommend-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero{padding-bottom:60px}.person{height:440px}.scene{min-height:500px}.left{left:0}.right{right:0}}
+</style>
+</head>
+<body>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <p class="eyebrow"><b>Суперпредложение</b>от Алексея Бессонова</p>
+      <h1>Получите 3 курсов <span class="yellow">по цене 1</span></h1>
+      <div class="actions"><a class="btn" href="#offer">Хочу суперпредложение</a><div class="discount">+скидка <b>70%</b></div></div>
+    </div>
+    <div class="person"></div>
+  </div>
+</section>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+<section class="video-band">
+  <div class="wrap grid">
+    <div><h2>Посмотрите, на что способна наша память, если её прокачать:</h2><p><b class="yellow">Вы сможете также,</b> если освоите специальные техники.</p></div>
+    <div class="video"><span class="play"></span></div>
+  </div>
+</section>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+<section class="problem">
+  <div class="wrap">
+    <h2>Через 90 дней вы перестанете<br>говорить</h2>
+    <div class="scene"><div class="person-shape left"></div><div class="person-shape right"></div><div class="msg m1">"Потерял"</div><div class="msg m2">"Забыла"</div><div class="msg m3">"Я не помню"</div></div>
+  </div>
+</section>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Solid State</h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-						</div>
-					</section>
+<section>
+  <div class="wrap">
+    <h2>И начнёте:</h2>
+    <div class="cards">
+      <div class="card"><h3>Быстро читать книги и запоминать суть</h3><p>Это поможет эффективно обучаться чему угодно</p></div>
+      <div class="card"><h3>Считать в уме цифры</h3><p>Даже если вы не математик</p></div>
+      <div class="card"><h3>Повторять события</h3><p>Вспомните то, что раньше ускользало</p></div>
+      <div class="card"><h3>Запоминать любые числа</h3><p>Даты, телефоны и важные детали</p></div>
+      <div class="card"><h3>Легко учить тексты</h3><p>Для выступлений или изучения языков</p></div>
+      <div class="card"><h3>Тренировать память</h3><p>Каждый день автоматически</p></div>
+    </div>
+    <div class="center"><a class="btn outline" href="#offer">Забронировать место со скидкой 🎁</a></div>
+  </div>
+</section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+<section id="offer">
+  <div class="wrap">
+    <h2>В Суперпредложение входит:</h2>
+    <div class="grid">
+      <div>
+        <p>Авторская 30-дневная онлайн-программа</p>
+        <h2 style="text-align:left">Фитнес для мозга</h2>
+        <p><b>За 1 месяц обучения вы овладеете</b> техниками запоминания и тренировки мозга.</p>
+        <div class="check"><span><b>Быстро обучаться</b><br>Запоминать любую информацию</span></div>
+        <div class="check"><span><b>Увеличить доход</b><br>Работать продуктивнее</span></div>
+        <div class="check"><span><b>Снизить стресс</b><br>Держать важное в голове</span></div>
+      </div>
+      <div><div class="box"></div><div class="center"><a class="btn" href="#lesson">Хочу суперпредложение</a></div></div>
+    </div>
+  </div>
+</section>
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Посмотрите, на что способна наша память, если её прокачать</h2>
-										<p>Вы сможете также, если освоите специальные техники и немного потренируйтесь.</p>
-										<a href="https://www.youtube.com/watch?v=6HMSsyrqsyU&t=63s" class="special">Узнать больше</a>
-									</div>
-								</div>
-							</section>
+<section>
+  <div class="wrap">
+    <h2>Этот курс рекомендуют</h2>
+    <p style="text-align:center"><b>Более 32 500 человек</b> стали выпускниками программы. <b>80% участников приходят по рекомендациям.</b></p>
+    <div class="recommend-grid"><div class="quote">Курсы Алексея Бессонова рекомендует<span>Ицхак Пинтосевич</span></div><div class="video"><span class="play"></span></div></div>
+  </div>
+</section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/channels4_profile.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>я сделал ура.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
+<section id="lesson">
+  <div class="wrap grid">
+    <div><h1>Попробуйте первый урок <span class="yellow">бесплатно</span></h1><p>Откройте доступ к первому уроку и посмотрите, как проходят занятия.</p><a class="btn" href="#">Перейти к первому уроку</a></div>
+    <div class="person"></div>
+  </div>
+</section>
 
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Через 90 дней вы перестанете говорить "Потерял" "Забыл" "Я не помню" </h2>
-										<p>Быстро читать книги и запоминать суть,Это поможет эффективно обучаться чему угодно.</p>
-											<p>Считать в уме цифры, даже если вы не математикБольше никаких "тупиков" на кассе.</p>
-										<p>Повторять последовательность и событияВспомните, что ели на завтрак даже спустя три года.</p>
-											<p>Запоминать любые числа или даты, не путая ихНе забудете её\его день рождения или номер телефона.</p>
-										<p>Легко учить тексты для выступлений или языкиНи одно слово не "вылетит" из головы.</p>
-										<p>Автоматически тренировать память в течение дняВ 80+ лет ваш мозг будет в тонусе и помнить своё имя.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
+<section>
+  <div class="wrap">
+    <h2>Что говорят о тренинге участники:</h2>
+    <div class="phones"><div class="phone"><span class="play"></span></div><div class="phone"><span class="play"></span></div><div class="phone"><span class="play"></span></div><div class="phone"><span class="play"></span></div></div>
+    <div class="center"><a class="btn outline" href="#">Показать ещё</a></div>
+  </div>
+</section>
 
-						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3 class="major">Fusce consequat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
-								</div>
-							</section>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<footer>© 2026 Алексей Бессонов</footer>
+</body>
 </html>
